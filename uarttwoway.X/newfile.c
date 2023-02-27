@@ -1,9 +1,3 @@
-/*
- * File:   main.c
- * Author: microdigisoft.com
- *
- * Created on 15 November, 2020, 10:25 AM
- */
 #include "config.h" // set the configuration of 
 #define Baud_Calc 16000000 // value to calculate baud rate @ 16mhz
 // This function used to generate delay in miliseconds
