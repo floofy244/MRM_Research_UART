@@ -1,0 +1,116 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877 ]
+[d frameptr 0 ]
+"477 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"23 C:\Users\avira\MPLABXProjects\secondmc.X\mc2.c
+[v _main main `(v  1 e 1 0 ]
+[s S126 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"550 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877.h
+[u S135 . 1 `S126 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES135  1 e 1 @12 ]
+[s S81 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"990
+[s S90 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S94 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S97 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S100 . 1 `S81 1 . 1 0 `S90 1 . 1 0 `S94 1 . 1 0 `S97 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES100  1 e 1 @24 ]
+"1055
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1062
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+[s S22 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1450
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES31  1 e 1 @135 ]
+[s S44 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2014
+[s S53 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S57 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S60 . 1 `S44 1 . 1 0 `S53 1 . 1 0 `S57 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES60  1 e 1 @152 ]
+"2069
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"23 C:\Users\avira\MPLABXProjects\secondmc.X\mc2.c
+[v _main main `(v  1 e 1 0 ]
+{
+"38
+[v main@received received `uc  1 a 1 9 ]
+"41
+} 0
+"477 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+[v printf@f f `*.24DCuc  1 a 1 wreg ]
+"512
+[v printf@c c `uc  1 a 1 6 ]
+"479
+[v printf@ap ap `[1]*.1v  1 a 1 4 ]
+"477
+[v printf@f f `*.24DCuc  1 a 1 wreg ]
+"550
+[v printf@f f `*.24DCuc  1 a 1 5 ]
+"1567
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c90\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
